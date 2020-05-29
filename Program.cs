@@ -12,6 +12,7 @@ namespace MyWork
         {
             Hello();
             AddMas();
+            ShowMas();
             Console.WriteLine("hello");
 
             Console.ReadLine();
@@ -23,6 +24,10 @@ namespace MyWork
         static void AddMas()
         {
             Console.WriteLine("New Mas");
+        }
+        static void ShowMas()
+        {
+            Console.WriteLine("New ShowMas");
         }
     }
 }
