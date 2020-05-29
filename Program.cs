@@ -11,7 +11,7 @@ namespace MyWork
         static void Main(string[] args)
         {
             Hello();
-
+            AddMas();
             Console.WriteLine("hello");
 
             Console.ReadLine();
@@ -19,6 +19,10 @@ namespace MyWork
         static void Hello()
         {
             Console.WriteLine("Commit hello");
+        }
+        static void AddMas()
+        {
+            Console.WriteLine("New Mas");
         }
     }
 }
