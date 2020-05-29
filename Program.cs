@@ -10,15 +10,15 @@ namespace MyWork
     {
         static void Main(string[] args)
         {
-            Show();
+            Hello();
 
             Console.WriteLine("hello");
 
             Console.ReadLine();
         }
-        static void Show()
+        static void Hello()
         {
-            Console.WriteLine("hello New Commit");
+            Console.WriteLine("Commit hello");
         }
     }
 }
